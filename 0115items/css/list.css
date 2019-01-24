@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;}
+.breadnav,.all,.moren,.blank15{width:1200px;margin: 0 auto;}
+.breadnav {line-height: 40px;clear: both;height:40px;font-size: 12px;font-family: "宋体";}
+.breadnav .locationnav{display: inline;float: left}
+.breadnav .locationnav span{color: #b4b4b4;}
+.breadnav .locationnav a{color: #333333}
+.breadnav .tsmsg{display: inline;float: right;color: #b4b4b4;}
+.breadnav .tsmsg span{color: #a00000;padding: 0px 2px}
+/*男女选择*/
+.select{
+    width: 1198px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #333;
+    border: 1px solid #C7CACD;
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.select .selectTop li{
+    width:100%;
+    border-bottom: 1px dashed #CCCCCC;
+    line-height: 34px;
+    display: inline-block;
+    height: 34px;
+    }
+.select .selectTop li div{
+    width:66px;
+    float: left;
+    display: inline;
+    text-align: center;
+
+  }
+.select .selectTop li div:nth-of-type(1){ border-right: 1px solid #CCCCCC;}
+.select .selectTop li em{
+    color: #2f2f2f;
+    height: 24px;
+    line-height: 24px;
+    display: block;
+    padding: 5px 0;
+    }
+.select .selectTop li a{
+    display: block;
+    padding-left: 10px;
+    color:#000000;
+   }
+.select .color{background-color: #ededed;
+    height: 26px;
+   }
+.select .color span{margin:0 8px;float: left;}
+.select .color ul li:not(:nth-child(1)) a{
+    width: 18px;height:18px;display: block;
+    background-color: deeppink;
+    border:1px solid #aeb1b4;}
+.select .color ul li:first-child a{
+    border: 1px solid #a00000;
+    padding: 3px;color: #2f2f2f;
+    background-color: #f3f3f6}
+.select .color ul{float: left;}
+.select .color ul li{display: block;
+                float: left;
+                margin-left: 3px;
+                margin-bottom: 8px;
+
+}
+/*全部商品*/
+.all{height:30px;line-height: 30px;font-size: 12px;
+    border-bottom: 2px solid #a10000;}
+.all ul li:first-child{
+    float: left;
+    width: 88px;
+    background-color: #a10000;
+
+    }
+.all ul li:first-child a{color:#ffffff;padding: 7px 17px;}
+.all ul li:last-child{
+    float: right;}
+.all ul li span{margin-left: 15px;border:1px solid #CCC;
+    padding: 3px;}
+.all ul li:last-child span:nth-of-type(1){
+    border:none;
+}
+/*默认*/
+.moren{font-size: 12px;
+        border-top: none;
+        height: 34px;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;}
+.moren li{height: 34px;line-height: 34px;}
+.moren li a{color:#333333}
+.moren .moreleft{float: left}
+
+.moren .moreleft li{
+    float: left;
+    border-right: 1px solid #ccc;
+
+    padding: 0px 12px 0px 20px;}
+.moren .moreright{float: right;
+    border-left: 1px solid #CCCCCC;padding: 0 20px}
+/*json商品*/
+.blank15{
+    display: block;
+    height: 15px;
+    line-height: 0px;
+    clear: both;
+    overflow: hidden;}
+.products{width:1215px;
+    margin: 0 auto;}
+.products .prod li{
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    margin: 0 6px 20px;
+    display: inline;
+    width: 231px;}
+.products .prod li div{
+    width: 230px;
+    height: 230px;
+    z-index: 0;
+    position: relative;
+    text-align: center;}
+.products .prod li img{display: block;
+    border: 1px solid #dbd7d6;
+    width: 228px;
+    height: 228px}
+.products .prod li h4,p{
+    padding: 0px 3px 5px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+.products .prod li p{color:#b81c22;font-weight: bolder;}
+.products .prod li h4{
+    margin-top: 10px;
+    line-height: 20px;
+    color: #727171;
+    height: 38px;
+    overflow: hidden;
+}
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="jquery.min.js"></script>
+    <script src="common.js"></script>
+</head>
+<body>
+     <div id="head">
+            <img src="img/logo_new.jpg" alt="">
+        </div>
+        <div id="main">
+
+            <a href="index.html"><img src="img/shirt.jpg" alt="" id="shirt"></a>
+                <div id="register">
+                    <form action="index.html" method="get">
+                        <h1>注册新用户<span>我已经注册现在就<a href="login.html">登录</a></span></h1>
+                        <ul id="fom">
+                            <li class="first">
+                                <input type="text" placeholder="验证码" id="yz" style="width:260px;height:43px;line-height: 43px;border:1px solid #cbcbcb">
+                                <img src="img/Code1.jpg" alt="" id="code">
+                                <span id="yzm"></span>
+                            </li>
+                            <li class="first">
+                                <input type="text" placeholder="请填写手机号" id="num" style="width:260px;height:43px;line-height: 43px;border:1px solid #cbcbcb">
+                                <a href="#">获取短信验证码</a>
+                                <span id="s1"></span>
+                            </li>
+                            <li class="last">
+                                <input type="text" placeholder="填写手机验证码" id="phone">
+                                <span id="s6"></span>
+                            </li>
+                            <li class="last">
+                                <input type="password" placeholder="设定登录密码" id="pwd">
+                                <span id="s4"></span>
+                            </li>
+                            <li class="last">
+                                <input type="password" placeholder="再次输入密码" id="pwd1">
+                                <span id="s5"></span>
+                            </li>
+                            <li id="check">
+                                <input type="checkbox" id="cek">请阅读
+                                <a href="#">《VANCL凡客诚品服务条款》</a>
+                            </li>
+                            <li>
+                                <input type="submit" value="立即注册" id="submit">
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+        </div>
+     <!--foot-->
+     <div class="line">
+        <div id="foot">
+            <p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+            <div id="logo">
+                <a rel="nofollow" href="https://search.szfw.org/cert/l/CX20111229001302001330" class="redLogo" target="_blank"></a>
+                <span class="costumeOrg"></span>
+                <a rel="nofollow" href="http://www.315online.com.cn/member/315090053.html" class="wsjyBzzx" target="_blank"></a>
+                <a rel="nofollow" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202010081900017" class="vanclMsg" target="_blank"></a>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
+<script>
+    //验证码
+   $id("code").onclick = function(){
+           var index = Math.round( Math.random()*3);
+           $id("code").src = "img/Code"+index+".jpg";
+   };
+
+    var oForm = document.forms[0];
+    //验证码验证
+    var flagYz = null;
+    $id("yz").onblur=function () {
+        var reg=/\w{6}/;
+        var str=this.value;
+        if( reg.test(str) ){
+            $id("yzm").innerHTML="";
+            flagYz=true;
+        }else{
+            $id("yzm").innerHTML="请输入图片验证码";
+            $id("yzm").style.border="1px solid #b81e20";
+            $id("yzm").style.fontSize="12px";
+            $id("yzm").style.color="#b81e20";
+            $id("yzm").style.padding="3px";
+            $id("yzm").style.backgroundColor="#f5f5f5";
+            flagYz=false;
+        }
+    };
+    //手机号验证
+        var flagTel = null;
+        $id("num").onfocus=function () {
+            $id("s1").innerHTML="请填写真实的手机号,并进行验证";
+        };
+        $id("num").onblur=function () {
+            var reg = /^1\d{10}$/;
+            var str = this.value;
+            if( reg.test(str) ){
+                $id("s1").innerHTML = "";
+                flagTel = true;
+            }else{
+                $id("s1").innerHTML = "请输入有效的手机号";
+                flagTel = false;
+            }
+        };
+        //手机验证码
+            var flagphone=null;
+            $id("phone").onfocus=function () {
+                $id("s6").innerHTML="请输入手机接收的验证码";
+            };
+            $id("phone").onblur=function () {
+                var reg = /\d{6}/;
+                var str = this.value;
+                if( reg.test(str) ){
+                    $id("s6").innerHTML = "";
+                    flagphone = true;
+                }else{
+                    $id("s6").innerHTML = "error";
+                    flagphone = false;
+                }
+            };
+    //密码验证
+    var flagPwd = null;
+    $id("pwd").onfocus=function () {
+        $id("s4").innerHTML="6-16位字符";
+    };
+    $id("pwd").onblur=function () {
+        var regNum=/^\d+$/;
+        var regLetter=/^[a-z]+$/i;
+        var regChar=/^[!@#$%^&*]+$/;
+        var _regNum=/\d+/;
+        var _regLetter=/[a-z]+/i;
+        var _regChar=/[!@#$%^&*]+/;
+        var str=this.value;
+        if(str.length<6||str.length>18){
+            $id("s4").innerHTML = "密码在6-18位";
+            flagPwd=false;
+        }else if(regNum.test(str)||regLetter.test(str)||regChar.test(str)){
+            $id("s4").innerHTML = "弱";
+            flagPwd=true;
+        }else if(_regNum.test(str)&&_regLetter.test(str)&&_regChar.test(str)){
+            $id("s4").innerHTML = "高强度";
+            flagPwd=true;
+        }else{
+            $id("s4").innerHTML = "中";
+            flagPwd=true;
+        }
+    };
+    //确认密码
+    var flagQpwd = null;
+    $id("pwd1").onfocus=function () {
+        $id("s5").innerHTML ="请再次输入密码，两次输入的密码必须一致"
+    };
+    $id("pwd1").onblur = function(){
+        var str2 = $id("pwd").value;
+        var str = this.value;
+        if( str==str2 ){
+            $id("s5").innerHTML = "";
+            flagQpwd = true;
+        }else{
+            $id("s5").innerHTML = "error";
+            flagQpwd = false;
+        }
+    };
+
+    oForm.onsubmit = function(){
+        if( flagYz&&flagTel&&flagPwd&&flagQpwd&&flagphone&&$id("cek").checked){
+            var now=new Date();
+            now.setDate(now.getDate()+360);
+            ////取出用户名和密码 存入到cookie中并设置生存期
+            var strName=$id("num").value;
+            var strPwd=$id("pwd").value;
+            document.cookie=`uname=${strName};expires=${now}`;
+            document.cookie=`upwd=${strPwd};expires=${now}`;
+        }else{
+            return false;
+        }
+    };
+</script>

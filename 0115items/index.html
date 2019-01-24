@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<script src="jquery.min.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+     <link rel="stylesheet" href="css/public.css">
+    <script src="common.js"></script>
+</head>
+<body>
+
+<div id="top">
+    <div id="topcon">
+        <div id="hello">
+                    <p>您好，欢迎光临凡客诚品！</p>
+                    <p>
+                        <a href="login.html" id="login">登录&nbsp;&nbsp;</a>
+                        <span>&nbsp;|</span>
+                        <a href="register.html">&nbsp;&nbsp;注册</a>
+                    </p>
+                    <p><a href="#">我的订单</a></p>
+                    <p><a href="#"><img src="img/notice.png"></a></p>
+                    <p><a href="#">网站公告</a></p>
+                    <p class="weibo">
+                        <a href="#"><img src="img/w1.jpg" alt=""></a><!--小微信-->
+                        <a href="#"><img src="img/w2.jpg" alt=""></a><!--小微博-->
+                    </p>
+                    <!--微信二维码-->
+                    <div class="weixin" style="display: none;z-index: 10;">
+                        <img src="img/wexin.jpg" alt="">
+                    </div>
+       </div>
+    </div>
+</div>
+<!--input-->
+        <div id="head">
+            <div class="right">
+            	<div class="floor">
+	                <div id="search">
+	                    <input type="text" placeholder="搜“水柔棉”，体验与众不同" id="input">
+	                    <input type="button" value="" id="btn">
+	                </div>
+	                <div class="chart"><a href="#">购物车(0)</a></div>
+                </div>
+                <!--热门搜索-->
+                <div class="remen">
+                	<li>热门搜索：</li>
+                	<li><a href="#">免烫衬衫</a></li>
+                	<li><a href="#">羽绒服</a></li>
+                	<li><a href="#">外套</a></li>
+                	<li><a href="#">熊本熊</a></li>
+                	<li><a href="#">运动户外</a></li>
+                	<li><a href="#">帆布鞋</a></li>
+                	<li><a href="#">水绒棉</a></li>
+                </div>
+            </div>
+        </div>
+<!--logo_vancl-->
+	<div class="vancl">
+        	<li class="logo"><a href="index.html"><img src="img/logo_new.jpg"></a></li>
+		<div class="nav">
+			<li>
+				<a href="http://www.vancl.com/">首页</a>
+				<span>|</span>
+			</li>
+			<!--衬衫-->
+			<li class="shirt">
+				<a href="http://shirts.vancl.com/#ref=hp-hp-head-nav_1-v:n|hp-hp-focus-1_3-v:n">衬衫</a>
+				<span>|</span>
+				<ol class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://catalog.vancl.com/zndjzt.html#ref=hp-hp-head-nav_2-v:n">T恤</a><span>|</span>
+				<ol class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">羽绒服</a><span>|</span>
+				<ol class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">卫衣</a><span>|</span>
+				<ol  class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt"><a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">外套</a><span>|</span>
+				<ol  class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">针织衫</a><span>|</span>
+				<ol  class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">裤装</a><span>|</span>
+				<ol class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">免烫</a></li>
+						<li><a href="#">易打理</a></li>
+						<li><a href="#">休闲</a></li>
+						<li><a href="#">高支</a></li>
+						<li><a href="#">法兰绒</a></li>
+						<li><a href="#">牛津纺</a></li>
+						<li><a href="#">青年布</a></li>
+						<li><a href="#">牛仔</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">鞋</a><span>|</span>
+				<ol class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">复古鞋</a></li>
+						<li><a href="#">帆布鞋</a></li>
+						<li><a href="#">休闲鞋</a></li>
+					</div>
+				</ol>
+			</li>
+			<li class="shirt">
+				<a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">家具配饰</a><span>|</span>
+				<ol class="subNav" style="display: none;z-index: 10;">
+					<span class="redLine"></span>
+					<div>
+						<li><a href="#">床品</a></li>
+						<li><a href="#">被子</a></li>
+						<li><a href="#">枕</a></li>
+						<li><a href="#">家居服</a></li>
+						<li><a href="#">家居鞋</a></li>
+						<li><a href="#">背提包</a></li>
+						<li><a href="#">拉杆箱</a></li>
+						<li><a href="#">皮钱包</a></li>
+						<li><a href="#">帽子</a></li>
+						<li><a href="#">毛巾</a></li>
+						<li><a href="#">内衣</a></li>
+					</div>
+				</ol>
+			</li>        	
+        </div>
+	</div>
+<!--3轮播图-->
+    <div class="wrapper">
+            <ul>
+                <li style="z-index: 6;">
+                	<a href="http://catalog.vancl.com/sdzjhd.html">
+                		<img src="img/con1.jpg" alt=""/>
+                	</a>
+                </li>
+                <li style="z-index: 5;"><img src="img/con2.jpg" alt=""/></li>
+                <li style="z-index: 4;"><img src="img/con3.jpg" alt=""/></li>
+                <li style="z-index: 3;"><img src="img/con4.jpg" alt=""/></li>
+                <li style="z-index: 2;"><img src="img/con5.jpg" alt=""/></li>
+                <li style="z-index: 1;"><img src="img/con6.jpg" alt=""/></li>
+            </ul>
+            <div class="ol" style="z-index: 10;">
+                <div class="current"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+    </div>
+    <!--双十一获奖名单-->
+    <div class="pic">
+    	<img src="img/name.jpg" alt="" />
+    </div>
+	<!--秒杀活动-->
+	<div class="day">
+		<a target="blank" href="http://catalog.vancl.com/miaosha.html">
+			<h2 class="new">
+				<span id="second">秒杀进行中，距开始还有<em></em><em></em><em></em></span>
+			</h2>
+		</a>
+	</div>
+<!--five-->
+	<div id="five">
+		<ul class="everyday">
+			<!--<li><a href="#">
+					<img src="img/1.jpg" alt="" />
+					<h4>MA1飞行夹克 双面穿 薄棉C9 军绿色</h4>
+					<p>￥328</p>
+					<div>
+						<b>￥198</b>
+						<span>充值后99元<span>
+					</div>
+				</a></li>-->
+		</ul>
+	</div>
+<!--T恤上新-->
+    <div class="new">
+        <img src="img/tnew.jpg" alt="" />
+    </div>
+<!--tableT恤上新-->
+    <div class="Tcloth">
+        <table class="Tcl">
+            <tr>
+                <!--
+                    <td><a href=""><img src="img/" alt=""></a></td>
+                    <td><a href=""><img src="img/" alt=""></a></td>
+                    <td><a href=""><img src="img/" alt=""></a></td>
+                    <td><a href=""><img src="img/" alt=""></a></td>
+                    <td><a href=""><img src="img/" alt=""></a></td>
+                    <td><a href=""><img src="img/" alt=""></a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                -->
+            </tr>
+        </table>
+    </div>
+<!--优选推荐-->
+	<div class="good">
+		<h2>优选推荐</h2>
+	</div>
+    <!--尾部-->
+<div class="recommend">
+	<ul class="left">
+		<!--<li>
+			<a href="#"><img src="img/shi1.jpg" alt="" style="width: 590px;height:440px"></a>
+			<h3>
+				<b>4.0日式免烫衬衫</b>
+				<span>充值购买更优惠</span>
+			</h3>
+		</li>-->
+	</ul>
+	<ul class="middle">
+			<!--<li>
+				<a href="http://catalog.vancl.com/njfzt.html" class="track">
+					<img src="img/shi4.jpg" >
+				</a>
+				<h3>
+					<b>牛津布衬衫</b>
+					<span>充值购买相当于69元起</span>
+				</h3>
+			</li>
+			<li>
+				<a href="http://catalog.vancl.com/njfzt.html" class="track">
+					<img src="img/shi4.jpg">
+				</a>
+				<h3>
+					<b>牛津布衬衫</b>
+					<span>充值购买相当于69元起</span>
+				</h3>
+			</li>-->
+	</ul>
+	<ul class="right">
+		<!--<li>
+			<a href="">
+				<img src="img/shi2.jpg" alt="运动户外" style=width:"286px";height:"440px">
+				<h3>
+					<b>外套</b>
+					<span>充值购买相当于69元起</span>
+				</h3>
+			</a>
+		</li>-->
+	</ul>
+</div>
+<!--下装推荐-->
+	<div class="down">
+		<h2>下装推荐</h2>
+	</div>
+	<div class="babe">
+		<ul class="babecloth">
+			<!--<li>
+			<a href="#"><img src="img/shi1.jpg"></a>
+			<h3>
+				<b>4.0日式免烫衬衫</b>
+				<span>充值购买更优惠</span>
+			</h3>
+		</li>-->
+		</ul>
+	</div>
+<!--更多精品-->
+	<div class="downmore">
+		<h2>更多精品</h2>
+	</div>
+<!--更多精品-->
+<div class="more">
+	<ul>
+		<li><a href="#"><img src="img/show1.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/show2.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/show3.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/show4.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/show5.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/show6.jpg" alt=""></a></li>
+	</ul>
+</div>
+<!--下面是公共的尾部-->
+<!--sevenday退货-->
+	<div class="seven">
+			<ul class="customer">
+				<li>
+					<a href="//help.vancl.com/Home/contact" rel="nofollow" target="_blank">
+						<p class="onlineCustomer"><img src="img/men.png" style="width:auto;height:auto;"></p>
+						<p class="onlineTime"> 7X9小时在线客服</p>
+					</a>
+				</li>
+				<li>
+					<a href="//help.vancl.com/Category/43-1.html" rel="nofollow" target="_blank">
+						<p class="sevenimg"><img src="img/seven.png" style="width:auto;height:auto;"></p>
+						<p>7天内退货</p>
+						<p> 购物满199元免运费</p>
+					</a>
+				</li>
+				<li>
+					<p><img src="img/two.jpg" style="width: 104px; height: 104px;"></p>
+					<p> 扫描下载<em>凡客</em>客户端</p>
+				</li>
+			</ul>
+			<ul class="others">
+				<li><a href="//www.vancl.com/help/about.htm" target="_blank">关于凡客</a></li>
+				<li><a href="//help.vancl.com/Content/1.html" target="_blank">新手指南</a></li>
+				<li><a href="//help.vancl.com/category/transfer" target="_blank">配送范围及时间</a></li>
+				<li><a href="//help.vancl.com/Category/31-1.html" target="_blank">支付方式</a></li>
+				<li><a href="//help.vancl.com/Category/43-1.html" target="_blank">售后服务</a></li>
+				<li class="none"><a href="//help.vancl.com/" target="_blank">帮助中心</a></li>
+			</ul>
+	</div>
+<!--foot-->
+<div class="line">
+	<div id="foot">
+		<p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+		<p>凡客诚品（北京）科技有限公司</p>
+		<div id="logo">
+			<a rel="nofollow" href="https://search.szfw.org/cert/l/CX20111229001302001330" class="redLogo" target="_blank"></a>
+			<span class="costumeOrg"></span>
+			<a rel="nofollow" href="http://www.315online.com.cn/member/315090053.html" class="wsjyBzzx" target="_blank"></a>
+			<a rel="nofollow" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202010081900017" class="vanclMsg" target="_blank"></a>
+		</div>
+	</div>
+</div>
+<div class="pos">
+	<ul>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li class="last"><a href="#"></a></li>
+	</ul>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var timer = null;
+    var $ulist = $("ul li");
+    var $olist = $(".ol div");//size() 获取jq中元素的个数
+    var index = 0;
+    timer = setInterval( autoPlay , 3000 );
+    function autoPlay(){
+        index++;
+        if( index == $olist.size() ){
+            index = 0;
+        }
+        $ulist.eq(index).fadeIn(3000).siblings().fadeOut(3000);
+        $olist.eq(index).addClass("current").siblings().removeClass("current");
+    }
+    //鼠标滑入停止定时器
+    $olist.mouseover (function(){
+        clearInterval( timer );
+        index = $(this).index()-1;
+        autoPlay();
+
+    }).mouseout(function(){
+        timer = setInterval( autoPlay , 3000 );
+    });
+//wechat滑过
+    $(".weibo").hover(function () {
+        $(".weixin").css({display:"block"});
+    },function () {
+        $(".weixin").css({display:"none"});
+    });
+/*导航滑过下拉效果*/
+	$(".shirt").each(function(){
+		$(this).hover(function(){
+			$(this).find(".subNav")
+			.slideDown("normal")
+			.css({display:"block"})
+			.end()
+			.siblings().find(".subNav")
+			.slideUp("slow")
+			.css({display:"none"})
+		},function(){
+			$(this).find(".subNav").slideUp("slow").css({display:"none"});
+		})
+	});
+    /*商品倒计时*/
+    var second=document.getElementById("second");
+    var start=new Date();
+    var end=new Date("2019-01-22 20:00:00");
+    //获取时间差t秒
+    var t=(end.getTime()-start.getTime())/1000;
+    showTime();
+    function showTime() {
+        if(t<0){
+            second.innerHTML="活动已经开始了";
+            return;
+        }
+        var h=parseInt(t/3600);
+        var m=parseInt((t-h*3600)/60);
+        var s=parseInt(t-h*3600-m*60);
+        if(h<10){
+            h="0"+h;
+		}else if(m<10){
+            m="0"+m;
+		}
+		var str="";
+		str+=`<em>${h}</em><em>${m}</em><em>${s}</em>`;
+		second.innerHTML="秒杀即将开始，距开始还有"+str;
+    }
+    var timer=setInterval(function () {
+        t--;
+        if(t<0){
+            clearInterval(timer);
+            second.innerHTML="秒杀正在进行中";
+        }else{
+            showTime();
+        }
+    },1000);
+/*ajax获取服务器数据*/
+window.onload=function () {
+    /*1.每日秒杀*/
+	var deff=$.ajax({
+		type:"get",
+		url:"json/fiveData.json"
+	});
+	//console.log(deff);
+	deff.done(function (msg) {
+		//console.log(msg);
+		//console.log(typeof (msg));//object
+        //得到一个json对象
+		var strCon="";
+		for(var i=0;i<msg.length;i++){
+            var pro=msg[i];
+		    strCon+=`<li><a href="#">
+						<img src="img/${pro.src}" alt="" />
+						<h4>${pro.name}</h4>
+						<p>${pro.price}</p>
+						<div>
+                            <b style="float:left">${pro.nowprice.left}</b>
+                            <span style="float:right;">${pro.nowprice.right}</span>
+						</div>
+					    </a></li>`;
+		}
+        $(".everyday").html(strCon);
+            //对最后一行价格的右边进行遍历
+            /*var str="";
+            for(var j=0;j<pro.nowprice.right.length;j++){
+                var pro1=pro.nowprice.right[j];
+                str+=`<i>${pro1.before}</i><em>${pro1.middle}</em><b>${pro1.later}<b>`
+            }
+            $(".everyday>li>div>span").html(str);*/
+    });
+    /*2.T恤专区*/
+    var deff1=$.ajax({
+        type:"get",
+        url:"json/clothes.json",
+        async:"true"
+    });
+    deff1.done(function (msg1) {
+        //console.log(msg1);
+      //  console.log(typeof (msg1));
+        //遍历每一个tr
+        var strCon1="";
+        for(var i=0;i<msg1.length;i++){
+            var clo=msg1[i];
+            strCon1+=`<tr></tr>`;
+        }
+        $(".Tcl").html(strCon1);
+        //遍历每一个tr里面的td
+        var strArr="";
+        for(var j=0;j<clo.length;j++){
+            var clon=clo[j];
+            strArr+=`<td><a href=""><img src="img/${clon.pic}" alt=""></a></td>`
+        }
+        $(".Tcl tr").html(strArr);
+
+    });
+    /*3.推荐下的recommend*/
+    //left.json遍历获取左边那一列
+    var shirt=$.ajax({
+			type:"get",
+			url:"json/left.json",
+			async:"true"
+	});
+    shirt.done(function (msg2) {
+		//console.log(msg2);
+		var strShirt="";
+		for(var i=0;i<msg2.length;i++){
+		    var shi=msg2[i];
+            strShirt+=`<li>
+					<a href="#"><img src="img/${shi.src}"></a>
+						<h3>
+							<b>${shi.main.left}</b>
+							<span>${shi.main.right}</span>
+						</h3>
+					</li>`
+		}
+		$(".recommend .left").html(strShirt);
+    });
+    //middle.json遍历获取左边那一列json数据
+    var shirt1=$.ajax({
+        type:"get",
+        url:"json/middle.json",
+        async:"true"
+    });
+    shirt1.done(function (info) {
+        //console.log(info);
+        var strInfo="";
+        for(var i=0;i<info.length;i++){
+			var shi1=info[i];
+            strInfo+=`<li>
+						<a href="#">
+							<img src="img/${shi1.src}" alt="运动户外">
+						</a>
+							<h3>
+								<b>${shi1.main.left}</b>
+								<span>${shi1.main.right}</span>
+							</h3>
+					</li>`
+		}
+		$(".recommend .middle").html(strInfo);
+    });
+    //right.json遍历获取左边那一列json数据
+    var shirt2=$.ajax({
+        type:"get",
+        url:"json/right.json",
+        async:"true"
+    });
+    shirt2.done(function (infor) {
+        //console.log(infor);
+        var strInfor="";
+        for(var i=0;i<infor.length;i++){
+            var shi2=infor[i];
+            strInfor+=`<li>
+						<a href="http://catalog.vancl.com/njfzt.html" class="track">
+							<img src="img/${shi2.src}" >
+						</a>
+						<h3>
+							<b>${shi2.main.left}</b>
+							<span>${shi2.main.right}</span>
+						</h3>
+					</li>`
+        }
+        $(".recommend .right").html(strInfor);
+    });
+    /*下装推荐*/
+    var babe=$.ajax({
+        type:"get",
+        url:"json/babe.json",
+        async:"true"
+    });
+    babe.done(function (ofo) {
+        var strShirt="";
+        for(var i=0;i<ofo.length;i++){
+            var shi=ofo[i];
+            strShirt+=`<li>
+					<a href="#"><img src="img/${shi.src}" ></a>
+						<h3>
+							<b>${shi.main.left}</b>
+							<span>${shi.main.right}</span>
+						</h3>
+					</li>`
+        }
+        $(".babe .babecloth").html(strShirt);
+    });
+};
+/*回顶部*/
+   	var flag = true;
+    $(".pos .last").click(function(){
+        flag = false;
+        $("body,html").animate({"scrollTop":0},1,function(){
+            flag = true;
+        });
+    })
+</script>

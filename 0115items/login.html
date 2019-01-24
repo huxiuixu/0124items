@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+用户名： <input type="text" id="uname"/>
+密码 ：  <input type="text" id="upwd"/>
+<input type="button" id="login" value="登录" />
+<script>
+    //页面打开后获取cookie中的数据
+    var str=document.cookie;//"username=huxiuxiu; password=123456"
+    var arr=str.split("; ");//["username=huixuixu","password=123456"]
+    //var yname=arr[0].split("=");// ["username", "huxiuxiu"]
+    var yname=arr[0].split("=")[1];//huxiuxiu
+    var ypwd=arr[1].split("=")[1];
+    login.onclick=function () {
+        var username=uname.value;
+        var password=upwd.value;
+        if(username===yname&&password===ypwd){
+            location.href="index.html"
+        }else{
+            alert("登录失败")
+        }
+    }
+
+
+</script>
+</body>
+</html>

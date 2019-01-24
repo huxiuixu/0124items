@@ -1,0 +1,224 @@
+*{margin: 0;padding: 0;}
+.pos{position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width:73px;
+    z-index: 10;
+    border: 1px solid #b81b22;
+    border-bottom: 0;
+    margin-bottom: 30px;
+}
+.pos ul{
+    background: url(../img/window.png) no-repeat -1px -1px;
+    height: 205px;
+    z-index: 10;
+    cursor: pointer;
+}
+.pos li{width:73px;height:77px;border-bottom: 1px solid #b81b22;}
+.pos li:last-child{border-bottom:none;}
+.pos li:first-child a{
+    background: url(../img/window.png) no-repeat -1px -1px;
+    display:block;
+    width: 73px;
+    color: #333;
+}
+    /*
+       轮播图
+    */
+.wrapper ul,.ol{ list-style: none;}
+.wrapper{
+    width: 1200px;
+    height: 535px;
+    /*margin: 100px auto;*/
+    overflow: hidden;
+    position: relative;
+}
+.wrapper ul{
+    position:relative;
+}
+.wrapper ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.wrapper .ol{
+    position: absolute;
+    right: 500px;
+    bottom: 10px;
+    width: 190px;
+}
+.wrapper .ol div{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: default;
+    background-color: #abc;
+}
+.wrapper .ol div.current{
+    background-color: darkred;
+}
+/*双十一获奖名单*/
+.pic{
+	height:60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+/*倒计时活动*/
+.day .new{
+    background:url(../img/mm.jpg) no-repeat scroll 0px 0px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 18px;
+}
+.day .new #second{
+    color: #FFFFFF;
+    margin-right: 10px;
+    float: right;
+}
+.day .new #second em{padding:0 20px;color:#ff0000}
+/*fiveData数据*/
+.everyday{
+    width:1200px;
+    margin: 10px 0 0 0;
+    color:#000000;
+}
+.everyday>li{
+    float: left;
+    width: 232px;
+    margin-right: 10px;
+}
+.everyday li a h4{
+    color: #000000;padding-top: 2px}
+.everyday li a p{color:#CCCCCC;}
+.everyday>li:nth-of-type(5){margin-right: 0}
+.everyday>li>div{width:100%;}
+.everyday li div b{float: left;color: darkred}
+.everyday li div span{float: right;color:#000000;}
+/*优选推荐*/
+.good{margin-top:50px;}
+.good h2{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 18px;
+    color:#9a9a9a;
+}
+/*推荐下的recommend*/
+/*下面两段代码解决高度塌陷*/
+.recommend{overflow: hidden;}
+.recommend:after{
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.recommend ul{margin-right: 17px;
+}
+.recommend .left{
+    width:590px;
+    float: left;
+}
+.recommend .middle{
+     width:290px;
+    float: left;
+ }
+.recommend .middle li{margin-bottom: 16px}
+.recommend .left li{margin-bottom: 24px}
+.recommend .right li{margin-bottom: 24px}
+.recommend .right{
+    width:286px;
+    float: left;
+    margin-right: 0;
+}
+.recommend ul li h3{
+    height: 28px;
+    padding: 20px 12px;
+    line-height: 28px;
+    border: 1px solid #e8e7ec;
+    border-top: 0;
+    font-size: 14px;
+}
+.recommend ul li h3 span{
+    float: right;
+    color: #a10000;
+    font-family: Arial;
+    line-height: 24px;
+    font-size: 14px;
+}
+/*下装推荐*/
+.down h2{
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        padding: 25px 0;
+        font-size: 18px;
+        color:#9a9a9a;
+}
+/*babe衣服*/
+.babe{overflow: hidden;}
+
+.babe .babecloth li{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 285px;
+    height: 508px;
+}
+.babe .babecloth li:last-child{margin-right: 0}
+.babe .babecloth li h3{
+    height: 28px;
+    padding: 20px 12px;
+    line-height: 28px;
+    border: 1px solid #e8e7ec;
+    border-top: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 14px
+}
+.babe .babecloth li h3 span{
+    float: right;
+    color: #a10000;
+    font-family: Arial;
+    line-height: 24px;
+    font-size: 14px;
+}
+/*更多精品*/
+.downmore{overflow: hidden;}
+.downmore:after{
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.downmore h2{
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        padding: 30px 0;
+        font-size: 18px;
+        color:#9a9a9a;
+}
+.more{overflow: hidden;}
+.more:after{
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.more ul li{
+    float: left;
+    width: 385px;
+    height: 275px;
+    display: inline;
+    margin: 0px 22px 28px 0px;
+}
+.more ul li:nth-of-type(3){margin-right: 0}
+.more ul li:nth-of-type(6){margin-right: 0}

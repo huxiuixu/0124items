@@ -1,0 +1,30 @@
+[
+  {
+    "src":"shi3.jpg",
+    "main":{
+      "left":"牛津纺衬衫",
+      "right":"充值购买相当于69元起"
+    }
+  },
+  {
+    "src":"shi4.jpg",
+    "main":{
+      "left":"中空棉拉链开衫",
+      "right":"充值购买更优惠"
+    }
+  },
+  {
+    "src":"boy3.jpg",
+    "main":{
+      "left":"熊本熊卫衣",
+      "right":"充值购买更优惠"
+    }
+  },
+  {
+    "src":"boy4.jpg",
+    "main":{
+      "left":"针织衫",
+      "right":"充值购买更优惠"
+    }
+  }
+]

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/datail.css">
+    <script src="common.js"></script>
+</head>
+<body>
+<div id="top">
+    <div id="topcon">
+        <div id="hello">
+            <p>您好，欢迎光临凡客诚品！</p>
+            <p>
+                <a href="login.html" id="login">登录&nbsp;&nbsp;</a>
+                <span>&nbsp;|</span>
+                <a href="register.html">&nbsp;&nbsp;注册</a>
+            </p>
+            <p><a href="#">我的订单</a></p>
+            <p><a href="#"><img src="img/notice.png"></a></p>
+            <p><a href="#">网站公告</a></p>
+            <p class="weibo">
+                <a href="#"><img src="img/w1.jpg" alt=""></a><!--小微信-->
+                <a href="#"><img src="img/w2.jpg" alt=""></a><!--小微博-->
+            </p>
+            <!--微信二维码-->
+            <div class="weixin" style="display: none;z-index: 10;">
+                <img src="img/wexin.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--input-->
+<div id="head">
+    <div class="right">
+        <div class="floor">
+            <div id="search">
+                <input type="text" placeholder="搜“水柔棉”，体验与众不同" id="input">
+                <input type="button" value="" id="btn">
+            </div>
+            <div class="chart"><a href="#">购物车(0)</a></div>
+        </div>
+        <!--热门搜索-->
+        <div class="remen">
+            <li>热门搜索：</li>
+            <li><a href="#">免烫衬衫</a></li>
+            <li><a href="#">羽绒服</a></li>
+            <li><a href="#">外套</a></li>
+            <li><a href="#">熊本熊</a></li>
+            <li><a href="#">运动户外</a></li>
+            <li><a href="#">帆布鞋</a></li>
+            <li><a href="#">水绒棉</a></li>
+        </div>
+    </div>
+</div>
+<!--logo_vancl-->
+<div class="vancl">
+    <li class="logo"><a href="index.html"><img src="img/logo_new.jpg"></a></li>
+    <div class="nav">
+        <li>
+            <a href="http://www.vancl.com/">首页</a>
+            <span>|</span>
+        </li>
+        <!--衬衫-->
+        <li class="shirt">
+            <a href="http://shirts.vancl.com/#ref=hp-hp-head-nav_1-v:n|hp-hp-focus-1_3-v:n">衬衫</a>
+            <span>|</span>
+            <ol class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://catalog.vancl.com/zndjzt.html#ref=hp-hp-head-nav_2-v:n">T恤</a><span>|</span>
+            <ol class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">羽绒服</a><span>|</span>
+            <ol class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">卫衣</a><span>|</span>
+            <ol  class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt"><a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">外套</a><span>|</span>
+            <ol  class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">针织衫</a><span>|</span>
+            <ol  class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">裤装</a><span>|</span>
+            <ol class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">免烫</a></li>
+                    <li><a href="#">易打理</a></li>
+                    <li><a href="#">休闲</a></li>
+                    <li><a href="#">高支</a></li>
+                    <li><a href="#">法兰绒</a></li>
+                    <li><a href="#">牛津纺</a></li>
+                    <li><a href="#">青年布</a></li>
+                    <li><a href="#">牛仔</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">鞋</a><span>|</span>
+            <ol class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">复古鞋</a></li>
+                    <li><a href="#">帆布鞋</a></li>
+                    <li><a href="#">休闲鞋</a></li>
+                </div>
+            </ol>
+        </li>
+        <li class="shirt">
+            <a href="http://downcoat.vancl.com/#ref=hp-hp-head-nav_3-v:n">家具配饰</a><span>|</span>
+            <ol class="subNav" style="display: none;z-index: 10;">
+                <span class="redLine"></span>
+                <div>
+                    <li><a href="#">床品</a></li>
+                    <li><a href="#">被子</a></li>
+                    <li><a href="#">枕</a></li>
+                    <li><a href="#">家居服</a></li>
+                    <li><a href="#">家居鞋</a></li>
+                    <li><a href="#">背提包</a></li>
+                    <li><a href="#">拉杆箱</a></li>
+                    <li><a href="#">皮钱包</a></li>
+                    <li><a href="#">帽子</a></li>
+                    <li><a href="#">毛巾</a></li>
+                    <li><a href="#">内衣</a></li>
+                </div>
+            </ol>
+        </li>
+    </div>
+</div>
+<!--放大镜上面的部分-->
+<div class="index">
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">长袖衬衫</a></li>
+        <li>凡客衬衫</li>
+        <li>凡客衬衫</li>
+        <li>凡客衬衫</li>
+        <li>凡客衬衫</li>
+        <li>男款</li>
+    </ul>
+</div>
+<!--放大镜选显卡-->
+<div class="van">
+    <ul class="vanclL">
+        <li>凡客衬衫</li>
+        <li>牛津纺</li>
+        <li>男款</li>
+        <li>蓝白条</li>
+        <li>充值购买更优惠</li>
+    </ul>
+    <ul class="vanclR">
+        <li><a href="#">模特搭配</a></li>
+        <li><a href="#">购买指南</a></li>
+        <li><a href="#">版型工艺</a></li>
+        <li><a href="#">设计细节</a></li>
+        <li><a href="#">模特搭配</a></li>
+        <li><a href="#">评论</a></li>
+        <li><a href="#">提问</a></li>
+    </ul>
+</div>
+<!--上面带一根线的空白-->
+<div class="bla">
+</div>
+<!--放大镜-->
+<div class="det" style="width:1200px;margin: 0 auto;">
+    <!--左边区-->
+    <div class="fdj">
+        <ol id="top1"><!--中图区-->
+            <!--1-->
+            <li class="rightM">
+                <div class="small"><!--中图区-->
+                    <img src="img/blackShirt1.jpg" alt="" class="smallImg"/>
+                    <div class="mask"></div>
+                </div>
+                <div class="big"  style="background-color: #FFFFFF;">
+                    <img src="img/bigger1.jpg" alt="" class="bigImg"><!--大图-->
+                </div>
+            </li>
+            <!--2-->
+            <li class="rightM">
+                <div class="small">
+                    <img src="img/blackShirt2.jpg" alt="" class="smallImg"/>
+                    <div class="mask"></div>
+                </div>
+                <div class="big" style="background-color: #FFFFFF;">
+                    <img src="img/bigger2.jpg" alt="" class="bigImg"><!--大图-->
+                </div>
+            </li>
+            <!--3-->
+            <li class="rightM">
+                <div class="small">
+                    <img src="img/blackShirt3.jpg" alt="" class="smallImg"/>
+                    <div class="mask"></div>
+                </div>
+                <div class="big"  style="background-color: #FFFFFF;">
+                    <img src="img/bigger3.jpg" alt="" class="bigImg"><!--大图-->
+                </div>
+            </li>
+        </ol>
+        <!--ul左侧的小图区-->
+        <ul id="bottom"><!--小图区-->
+            <li><img src="img/smallpic1.jpg" alt=""/></li>
+            <li><img src="img/smallpic2.jpg" alt=""/></li>
+            <li><img src="img/smallpic3.jpg" alt=""/></li>
+        </ul>
+    </div>
+    <!--右边大块区-->
+    <div class="selectArea">
+        <ul>
+            <li>特惠价：￥138.00 充100返100，点击充值</li>
+            <li>
+                <p>颜色：</p>
+                <ol>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                    <li><a href="#">
+                        <span><img src="img/small.jpg" alt=""></span>
+                        <b>灰白条</b>
+                    </a></li>
+                </ol>
+            </li>
+            <li>尺码：</li>
+            <li>数量： 余量有限</li>
+            <li>已选： 蓝白条，S现在有货</li>
+            <li>
+                <button><a href="#">立即购买</a></button>
+                <button><a href="#">加入购物车</a></button>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--下面是公共的尾部-->
+<!--sevenday退货-->
+<div class="seven">
+    <ul class="customer">
+        <li>
+            <a href="//help.vancl.com/Home/contact" rel="nofollow" target="_blank">
+                <p class="onlineCustomer"><img src="img/men.png" style="width:auto;height:auto;"></p>
+                <p class="onlineTime"> 7X9小时在线客服</p>
+            </a>
+        </li>
+        <li>
+            <a href="//help.vancl.com/Category/43-1.html" rel="nofollow" target="_blank">
+                <p class="sevenimg"><img src="img/seven.png" style="width:auto;height:auto;"></p>
+                <p>7天内退货</p>
+                <p> 购物满199元免运费</p>
+            </a>
+        </li>
+        <li>
+            <p><img src="img/two.jpg" style="width: 104px; height: 104px;"></p>
+            <p> 扫描下载<em>凡客</em>客户端</p>
+        </li>
+    </ul>
+    <ul class="others">
+        <li><a href="//www.vancl.com/help/about.htm" target="_blank">关于凡客</a></li>
+        <li><a href="//help.vancl.com/Content/1.html" target="_blank">新手指南</a></li>
+        <li><a href="//help.vancl.com/category/transfer" target="_blank">配送范围及时间</a></li>
+        <li><a href="//help.vancl.com/Category/31-1.html" target="_blank">支付方式</a></li>
+        <li><a href="//help.vancl.com/Category/43-1.html" target="_blank">售后服务</a></li>
+        <li class="none"><a href="//help.vancl.com/" target="_blank">帮助中心</a></li>
+    </ul>
+</div>
+<!--foot-->
+<div class="line">
+    <div id="foot">
+        <p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+        <p>凡客诚品（北京）科技有限公司</p>
+        <div id="logo">
+            <a rel="nofollow" href="https://search.szfw.org/cert/l/CX20111229001302001330" class="redLogo" target="_blank"></a>
+            <span class="costumeOrg"></span>
+            <a rel="nofollow" href="http://www.315online.com.cn/member/315090053.html" class="wsjyBzzx" target="_blank"></a>
+            <a rel="nofollow" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202010081900017" class="vanclMsg" target="_blank"></a>
+        </div>
+    </div>
+</div>3
+</body>
+</html>
+<script>
+    /*导航滑过下拉效果*/
+    $(".shirt").each(function(){
+        $(this).hover(function(){
+            $(this).find(".subNav")
+                .slideDown("normal")
+                .css({display:"block"})
+                .end()
+                .siblings().find(".subNav")
+                .slideUp("slow")
+                .css({display:"none"})
+        },function(){
+            $(this).find(".subNav").slideUp("slow").css({display:"none"});
+        })
+    });
+/*放大镜区域*/
+    var ulist =  document.getElementById("bottom").children;//小图list
+    var olist =  document.getElementById("top1").children;//中图list
+    //利用循环为li添加鼠标移入事件
+    for( var i = 0 ; i < ulist.length ; i++ ){
+        //为每一个li添加属性  记录下标
+        //ulist[i].idx = i;
+        ulist[i].setAttribute( "idx" , i );
+        ulist[i].onmouseover = function(){
+            for( var j = 0 ; j < olist.length ; j++ ){
+                olist[j].style.display = "none";
+            }
+            //获取当前操作的小图对应的大图   下标
+            //获取当前li的下标
+            var index = this.getAttribute("idx");
+            olist[index].style.display = "block";
+            ulist[index].style.border="2px solid #a10000"
+        };
+        ulist[i].onmouseout=function () {
+            var index = this.getAttribute("idx");
+            ulist[index].style.border="1px solid #ccc"
+        }
+    }
+//放大镜效果
+    var rightM=document.querySelectorAll("ol li");//包括中图和大图的框
+    var small=document.querySelectorAll(".small");//小图框
+    var big=document.querySelectorAll(".big");//大图框
+    var smallImg=document.querySelectorAll(".smallImg");//小图片
+    var bigImg=document.querySelectorAll(".bigImg");//大图
+    var mask=document.querySelectorAll(".mask");//遮罩
+    for(var i=0;i<rightM.length;i++) {
+        //鼠标滑入中图区事件
+        small[i].setAttribute("index",i);
+        small[i].onmouseover = function () {
+            var index = this.getAttribute("index");
+            for(var j=0;j<big.length;j++){
+                big[j].style.display = "none";
+            }
+            mask[index].style.display = "block";
+            big[index].style.display = "block";
+        };
+
+        //鼠标滑出中图区事件
+        small[i].onmouseout = function () {
+            var index = this.getAttribute("index");
+            mask[index].style.display = "none";
+            big[index].style.display = "none";
+        };
+        //鼠标在中图区移动事件
+        small[i].onmousemove = function (ev) {
+            for(var j=0;j<bigImg.length;j++) {
+                var index = this.getAttribute("index");
+                big[index].style.display = "block";
+                var e = ev || event;
+                /*var x = e.pageX - rightM[index].offsetLeft - mask[index].offsetWidth / 2;
+                var y = e.pageY - rightM[index].offsetTop - mask[index].offsetHeight / 2;*/
+                var x = e.pageX- mask[index].offsetWidth-mask[index].offsetHeight/2;           // - rightM[index].offsetLeft - mask[index].offsetWidth / 2;
+                var y = e.pageY- mask[index].offsetHeight-mask[index].offsetHeight ;   // - rightM[index].offsetTop - mask[index].offsetHeight / 2;
+                var maxL = rightM.offsetWidth - mask[index].offsetWidth;
+                var maxT = rightM.offsetHeight - mask[index].offsetHeight;
+                console.log(mask[index].offsetHeight/2 );
+                //边界处理
+                x = x < 0 ? 0 : (x > maxL ? maxL : x);
+                y = y < 0 ? 0 : (y > maxT ? maxT : y);
+                //设置mask的left和top
+                mask[index].style.left = x + "px";
+                mask[index].style.top = y+ "px";
+                // mask.style.backgroundPositionX=-x+"px";
+                // mask.style.backgroundPositionY=-y+"px";
+                //获取大图的移动时的left和top值
+                //比例关系 ：
+                //bigImgLeft / x =  大图宽度-大图显示区宽度  / 小图宽度 - 小图显示区宽度
+                var bigImgLeft = x * (bigImg[index].offsetWidth - big[index].offsetWidth) / (smallImg[index].offsetWidth - mask[index].offsetWidth);
+                var bigImgTop = y * (bigImg[index].offsetHeight - big[index].offsetHeight) / (smallImg[index].offsetHeight - mask[index].offsetHeight);
+                bigImg[index].style.left = -bigImgLeft + "px";
+                bigImg[index].style.top = -bigImgTop + "px";
+            }
+       }
+    }
+</script>

@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0; }
+li {
+  list-style: none; }
+a {
+  text-decoration: none; }
+em{font-style: normal;}
+b, h1, h2, h3, h4, h5, h6, i {
+  font-weight: 400; }
+body {
+  width: 100%; }
+ #head, #topcon, .wrapper ,.vancl,.pic,
+.day,#five,.new,.Tcloth,.Tcl,.good,.recommend,.down,.babe,.more{
+  width: 1200px;
+  margin: 0 auto; }
+ /*下面是公共的头部*/
+#top {
+  height: 31px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc; }
+#head {
+  height: 60px;
+ }
+#top #hello {
+  float: right; }
+#top #hello p {
+  float: left;
+  font-size: 12px;
+  color: gray; }
+#top #hello p a {
+  color: gray; }
+#top #hello p {
+  margin-left: 12px; }
+#top #hello p {
+  padding-top: 6px; }
+#top #hello .weibo {
+  position: relative; }
+#top #hello .weixin {
+  position: absolute;
+  top: 27px;
+  right: 93px; }
+#top #hello .weixin img {
+  width: 145px;
+  height: 145px; }
+ #head {
+  height: 60px;
+  margin-top: 26px; }
+#head .right {
+	font-size: 14px;
+  float: right;
+  height: 60px;
+ }
+  #head .right .floor{height:32px;}
+  #head .right .remen{height:18px;padding-top: 5px;}
+  #head .right .remen li{float: left;font-size: 12px;margin-right: 12px;color:#727171}
+   #head .right .remen li a{color:#727171}
+ #head .right #search{float:left;margin-right: 15px;} 
+#head .right .chart {
+    float: right; }
+#head .right .chart a{color:#FFFFFF;font-size: 12px;}
+#head .right #input {
+    height: 25px;
+    width: 260px;
+    float: left; }
+#head .right #search #btn {
+			float:left;
+      background: url(../img/vanclsprite.png) no-repeat -99px 0px;
+      width: 50px;
+      height: 29px;
+      border: none;
+      cursor: pointer;
+      padding-top: 10px; }
+#head .right .chart{
+			width:111px;height:27px;
+			line-height: 27px;
+  		background: url(../img/vanclsprite.png) no-repeat -150px 0px;
+  		float: right;
+  		text-align: center;
+}
+/*.vancl .nav{width: 1170px;}*/
+.vancl .nav>li{float: left;padding-bottom: 28px;}
+.vancl .logo{float: left;}
+.vancl .nav>li>span{color:#727171;}
+.vancl .nav>li a{padding:0 28px;color:#727171;}
+.vancl .logo{height:46px;}
+.vancl .logo a{padding-left: 0;padding-right: 28px;}
+.vancl .nav{padding-top: 27px;}
+.vancl .nav .shirt{position: relative;}
+.vancl .nav .shirt .subNav .redLine{
+				height:5px;
+				background-color:darkred;
+				width: 100%;
+				position: absolute;
+				left:0;top: 0;
+				}
+.vancl .nav .shirt .subNav{
+				width: 104px;
+				border: 1px solid #CCCCCC;
+				border-top:none;
+				position: absolute;
+				left:0;top:30px;
+				background-color: #FFFFFF;
+				padding-top: 20px;
+                text-align: center;
+					}
+.vancl .nav .shirt .subNav li{
+                height:40px;
+                line-height: 40px;
+                text-align: center;}
+/*下面是公共的尾部*/
+/*七天无理由退换货*/
+.seven{width:1118px;
+    margin: 0px auto;
+    height:282px;
+    border: 1px solid #e0e0e1;
+    padding:0 40px 0;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.seven .customer{
+    margin: 33px 0px 23px;
+    overflow: hidden;
+    zoom: 1
+}
+.seven .customer li{
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+    float: left;
+}
+.seven .customer li:last-child{border-right: none}
+.seven .customer li p{
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px
+}
+.customer .onlineCustomer{ margin: 15px auto 30px;}
+.customer li a .onlineTime{
+    margin: 0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+.customer li:nth-of-type(2) p{
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px
+}
+.customer li .sevenimg{margin: 20px 0px;}
+.seven .others{
+    height: 26px;
+    padding: 17px 0px 14px;
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0;
+}
+.seven .others li{
+    padding: 0px 65px;
+    line-height: 26px;
+    border-right: 1px solid #dadadb;
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+    float: left;
+}
+.seven .others li a{color: #323232;font-size: 12px}
+.seven .others .none{border-right: none}
+/*foot*/
+.line{
+    width: 100%; border-top: 1px solid #3e3a39;}
+#foot{
+
+    width:980px;
+    height:119px;
+    margin:0 auto;
+}
+#foot p:nth-of-type(1){padding-top: 5px}
+#foot p{
+    font-size: 12px;
+    color:#3e3a39;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 25px;
+}
+#foot #logo{width:547px;height:45px;
+    margin:0 auto;padding-top: 20px}
+#foot #logo a{
+    width: 113px;
+    height: 42px;
+    display: inline-block;
+}
+#foot #logo .costumeOrg{width:156px;height:45px;display: inline-block;}
+#foot #logo .redLogo{background: url(../img/spritesbg.png) no-repeat 0px -400px;}
+#foot #logo .costumeOrg{background: url(../img/spritesbg.png) no-repeat 0px -448px;}
+#foot #logo .wsjyBzzx{background: url(../img/spritesbg.png) no-repeat 16px -496px;}
+#foot #logo .vanclMsg{background: url(../img/spritesbg.png) no-repeat -96px -496px;}
+
+
+
+
+
+
+

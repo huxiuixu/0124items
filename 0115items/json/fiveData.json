@@ -1,0 +1,58 @@
+[
+  {
+    "id" : "shop01",
+    "src" :"pc1.jpg",
+    "name" :"MA1飞行夹克 双面穿 薄棉C9 军绿色",
+    "price":"￥328",
+    "nowprice":
+            {
+              "left":"￥198",
+              "right":"充值后99元"
+            }
+
+  },
+    {
+      "id" : "shop01",
+      "src" :"pc2.jpg",
+      "name" :"MA1飞行夹克 双面穿 薄棉C9 军绿色",
+      "price":"￥328",
+      "nowprice":
+              {
+                "left":"￥198",
+                "right":"充值后99元"
+              }
+    },
+    {
+      "id" : "shop01",
+      "src" :"pc3.jpg",
+      "name" :"MA1飞行夹克 双面穿 薄棉C9 军绿色",
+      "price":"￥328",
+      "nowprice":
+        {
+          "left":"￥198",
+          "right":"充值后99元"
+        }
+    },
+    {
+      "id" : "shop01",
+      "src" :"pc4.jpg",
+      "name" :"MA1飞行夹克 双面穿 薄棉C9 军绿色",
+      "price":"￥328",
+      "nowprice":
+        {
+          "left":"￥198",
+          "right":"充值后99元"
+        }
+    },
+    {
+      "id" : "shop01",
+      "src" :"pc5.jpg",
+      "name" :"MA1飞行夹克 双面穿 薄棉C9 军绿色",
+      "price":"￥328",
+      "nowprice":
+        {
+          "left":"￥198",
+          "right":"充值后99元"
+        }
+  }
+]
